@@ -306,16 +306,15 @@ def generate_pdf(disorders, inputs):
 
 gender_map = {0: "Male", 1: "Female", 2: "Other"}
 occupation_map = {
-    0: "Doctor",
-    1: "Engineer",
-    2: "Teacher",
-    3: "Nurse",
-    4: "Lawyer",
+    0: "Nurse",
+    1: "Doctor",
+    2: "Engineer",
+    3: "Lawyer",
+    4: "Teacher",
     5: "Accountant",
     6: "Salesperson",
-    7: "Manager",
-    8: "Scientist",
-    9: "Other"
+    7: "Student",
+    8: "Other"
 }
 
 
