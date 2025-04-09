@@ -235,7 +235,7 @@ def generate_pdf(disorders, inputs):
     c.drawString(200, height - 50, "Sleep Disorder Report")
 
     # Timestamp in top-right
-    timestamp = datetime.now().strftime("%Y-%m-%d %I:%M %p")
+    timestamp = datetime.now().strftime("%Y-%m-%d")
     c.setFont("Helvetica", 10)
     c.setFillColor(colors.black)
     c.drawString(400, height - 20, f"Generated on: {timestamp}")
